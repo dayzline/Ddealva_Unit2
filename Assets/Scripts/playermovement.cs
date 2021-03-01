@@ -9,6 +9,8 @@ public class playermovement : MonoBehaviour
 
     public float speed;
 
+    public GameObject flyingMeat;
+
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
@@ -22,6 +24,11 @@ public class playermovement : MonoBehaviour
         if (transform.position.x < -xRange)
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(flyingMeat, transform.position, flyingMeat.transform.rotation);
         }
     }
 }
