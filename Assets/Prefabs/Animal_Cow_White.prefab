@@ -231,6 +231,8 @@ GameObject:
   - component: {fileID: 4176693765526228997}
   - component: {fileID: 4176693765518633737}
   - component: {fileID: 4176693764651479374}
+  - component: {fileID: 4267859627153841685}
+  - component: {fileID: -5148695742740357050}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -246,7 +248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4176693765525759529}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 10, y: 0, z: 20}
+  m_LocalPosition: {x: 10, y: 0, z: 20.606}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 4176693765526178921}
@@ -285,6 +287,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &4267859627153841685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176693765525759529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8c8d72ef86ddd4ca1ba5c420c093c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-5148695742740357050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176693765525759529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12, y: 30, z: 48}
+  m_Center: {x: 0, y: 15, z: 0}
 --- !u!1 &4176693765525759673
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4176693765526158969}
   - component: {fileID: 4176693765514247067}
+  - component: {fileID: 8677647668010874455}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -502,6 +530,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!65 &8677647668010874455
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176693765525764657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.172415, y: 32.57899, z: 48.40882}
+  m_Center: {x: 0, y: 16.289469, z: 0.2914505}
 --- !u!1 &4176693765525765027
 GameObject:
   m_ObjectHideFlags: 0

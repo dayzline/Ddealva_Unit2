@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f068e8f3d9bcac644b3f5343ed77a117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   flyingMeat: {fileID: 1284302600652683887, guid: b134a446a53fd0542b67cf6cab0a9cf9,
     type: 3}
 --- !u!1 &170076733
